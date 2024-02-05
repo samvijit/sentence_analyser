@@ -23,5 +23,7 @@ def analyser(str_:str)->dict:
           "pun":pun
      }
 
-a = analyser("This is a Test text in which you may find 12 @3 4-0095934%680&)$(@*)(83-9=-302=318428349")
-print(a)
+if __name__=="__main__":
+	a = str(input("Enter any Text:")
+	res_ = analyser(a)
+	print(res_)

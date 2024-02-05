@@ -17,10 +17,10 @@ def analyser(str_:str)->dict:
           elif s_ in punctuation:
                pun+=1
      return {
-          "low":low,
-          "upp":upp,
-          "dig":dig,
-          "pun":pun
+          "lower":low,
+          "upper":upp,
+          "digit":dig,
+          "punctuation":pun
      }
 
 if __name__=="__main__":

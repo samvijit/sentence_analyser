@@ -24,6 +24,6 @@ def analyser(str_:str)->dict:
      }
 
 if __name__=="__main__":
-	a = str(input("Enter any Text:")
+	a = str(input("Enter any Text:"))
 	res_ = analyser(a)
 	print(res_)
